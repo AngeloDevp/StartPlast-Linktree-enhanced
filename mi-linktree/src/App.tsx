@@ -3,7 +3,7 @@ import { LinkButton } from './components/LinkButton';
 
 function App() {
   const numeroWhatsApp = "584129851283"; 
-  const mensaje = "Hola! Me gustaría recibir información sobre sus productos y cómo realizar un pedido";
+  const mensaje = "";
   const linkWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
 
   return (
