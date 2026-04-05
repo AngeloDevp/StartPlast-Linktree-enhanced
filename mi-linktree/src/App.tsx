@@ -23,7 +23,8 @@ function App() {
             @StarPlast_ve
           </h1>
           <p className="text-sm sm:text-base text-gray-500 font-medium leading-relaxed max-w-xs sm:max-w-sm text-center">
-            Soluciones industriales y tecnológicas de primer nivel. Innovación, calidad y compromiso en cada proyecto.
+            Fábrica de artículos escolares de primer nivel desde hace 4 décadas.
+            Calidad Star: Siempre impulsando grandes ideas en cada trazo.
           </p>
         </div> {/* <--- ESTE ERA EL DIV QUE FALTABA */}
 
@@ -31,14 +32,14 @@ function App() {
         <div className="w-full flex flex-col items-center gap-3 sm:gap-4 mt-6 sm:mt-8">
           
           <LinkButton
-            title="Escríbenos por WhatsApp"
+            title="Consultas y Ventas"
             url={linkWhatsApp}
             icon="/whatsapp-icon.svg"
           />
           
           <LinkButton
-            title="Descargar Catálogo"
-            url="/catalogo-servicios.pdf"
+            title="Catálogo Star"
+            url="/catalogo-star.pdf"
             icon="/pdf-icon.svg"
           />
           
